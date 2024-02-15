@@ -17,24 +17,3 @@ body {
     font-size: 3rem;
     margin-bottom: 1rem;
 }
-
-.animated-text {
-    font-size: 48px;
-    font-weight: bold;
-    text-align: center;
-  }
-  
-  .animated-text span {
-    opacity: 0;
-    animation: fadeIn 2s forwards;
-    animation-delay: calc(0.05s * var(--index));
-  }
-  
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
