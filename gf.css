@@ -17,3 +17,10 @@ body {
     font-size: 3rem;
     margin-bottom: 1rem;
 }
+            body {
+              background-image: url("/joh.jpg");
+              background-color: #cccccc;
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
